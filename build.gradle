@@ -1,0 +1,27 @@
+repositories {
+    
+     mavenCentral()
+   
+}
+buildscript {
+    repositories {
+       mavenCentral()
+      
+    }
+   
+}
+
+apply plugin: "java"
+apply plugin: "eclipse"
+apply plugin: "idea"
+
+
+// In this section you declare where to find the dependencies of your project
+
+
+dependencies {
+compile "net.serenity-bdd:serenity-core:1.5.3"
+    compile "net.serenity-bdd:serenity-junit:1.5.3"
+   compile "net.serenity-bdd:serenity-cucumber:1.5.4"
+}
+
