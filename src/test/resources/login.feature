@@ -1,8 +1,13 @@
 @Run
-Feature: Add new todos
-  Users need to be able to quickly add tasks as fast as they can think of them.
-
-  Scenario: Add a new todo
-    Given the todo application
-    When  the todo action 'Digitize Supreme Power Collection' is added
-    Then  'Digitize Supreme Power Collection' should appear in the todo list
+Feature: To Test the Kobil Applications
+  
+  Scenario Outline: To verify the the navigation is working as expected 
+    Given I navigate to Kobil Application
+    When  I click on "<Application>" start Demo Button 
+    Then  I should be Navigated to "<pageTitile>"
+    
+Examples:
+|Application|pageTitile|
+|TRUSTED SIGN|KOBIL Trusted Sign|
+|TRUSTED LOGIN|KOBIL Trusted Login|
+|TRUSTED WEB|KOBIL mAST - Designed, developed and made in Germany|

@@ -2,14 +2,21 @@ package page;
 
 import java.io.File;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+
+
+
+
 
 public class log {
 
 	private WebDriver driver;
-	public void initateDriver()
+	public log()
 	{
 		File a=new File("src/libs/chromedriver.exe");
 		String path=a.getAbsolutePath();
@@ -18,9 +25,6 @@ public class log {
 		// Initialize browser
 		WebDriver driver=new ChromeDriver();
 		 this.driver=driver;
-		// Open facebook
-		driver.get("http://www.facebook.com");
-
 
 	}
 	public WebDriver getDriver()
@@ -29,16 +33,24 @@ public class log {
 		return this.driver;
 	}
 	
-	public static void main(String[] args) {
-		log ab=new log();
-		ab.initateDriver();
-
+	public void redirect(String AppName)
+	{
+		getDriver().findElement(By.xpath("//h4[contains(text(),'"+AppName+"')]//ancestor::a")).click();
+		WebElement a=getDriver().findElement(By.xpath("//h2[contains(text(),'"+AppName+"')]/parent::*/a"));
+		JavascriptExecutor executor = (JavascriptExecutor) getDriver();
+		executor.executeScript("arguments[0].click();", a);
 	}
 	
-	public void navigate()
-	{
-		System.out.println("Navigating to Google");
-		getDriver().navigate().to("https://www.google.com");
-	}
-
+public void navigateToApp() {
+	getDriver().navigate().to("https://mast2.kobil.com/");
+}
+public void validateRedirect(String expPageTitle)
+{
+	String pageTitile=getDriver().getTitle();
+	System.out.println(pageTitile);
+	Assert.assertEquals(expPageTitle, pageTitile);
+	getDriver().quit();
+}
+	
+	
 }
