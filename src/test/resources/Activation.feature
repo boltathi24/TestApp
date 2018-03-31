@@ -9,5 +9,5 @@ Feature: To Test the Kobil Applications
 Examples:
 |Application|pageTitile|
 |TRUSTED SIGN|KOBIL Trusted Sign|
-|TRUSTED LOGIN|KOBIL Trusted Login|
-|TRUSTED WEB|KOBIL mAST - Designed, developed and made in Germany|
+#|TRUSTED LOGIN|KOBIL Trusted Login|
+#|TRUSTED WEB|KOBIL mAST - Designed, developed and made in Germany|

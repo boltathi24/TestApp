@@ -1,5 +1,8 @@
-/Library.class
-/login.feature
 /page/
-/runner/
 /steps/
+/runner/
+/Navigation.feature
+/Login.feature
+/SignUp.feature
+/Activation.feature
+/UIValidation.feature

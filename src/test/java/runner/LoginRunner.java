@@ -11,6 +11,6 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 plugin ={"pretty","html:cucumberReport/cucumber-html-report"},
 glue= {"steps"},
 tags= {"@Run"})
-public class run {
+public class LoginRunner {
 
 }

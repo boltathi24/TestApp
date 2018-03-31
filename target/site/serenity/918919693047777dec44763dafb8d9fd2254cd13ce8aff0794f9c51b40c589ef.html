@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>Add a new todo</title>
+    <title>To verify the the navigation is working as expected</title>
     <link rel="shortcut icon" href="favicon.ico">
 
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
@@ -40,7 +40,7 @@
         <span class="breadcrumbs">
             <a href="index.html" class="breadcrumbs">Home</a>
 
-            > Add a new todo
+            > To verify the the navigation is working as expected
         </span>
         </div>
         <div class="rightbg"></div>
@@ -58,7 +58,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 29-03-2018 02:48</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-04-2018 02:54</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -73,11 +73,11 @@
                             <div>
                                 <h3 class="discreet-story-header">
                                     <i class="fa fa-2x fa-comments-o"></i>
-                                    <span class="story-header-title">Add New Todos</span>
+                                    <span class="story-header-title">As A User, The Navigation Inbetween The Application Should Work As Expected</span>
                                 </h3>
 
                                 <div class="discreet-requirement-narrative-title">
-                                Users need to be able to quickly add tasks as fast as they can think of them.
+                                
                                 </div>
                             </div>
 
@@ -86,7 +86,7 @@
                             <p class="tag">
                                 <span class="badge tag-badge">
                                     <i class="fa fa-tag"></i>&nbsp;<a class="tagLink"
-                                                                      href="5a2b87ec54895eb41648e4e9c8efd4d7f1b6eff05d3d5cc277ef05758e8cfa31.html">Run
+                                                                      href="60ae8d92bbfaf77bc45fefc455915d91ce8aae56d1db66e529b71948bbea58cb.html">Navigation
                                     (tag)</a>
                                 </span>
                             </p>
@@ -101,7 +101,7 @@
                             <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
                             <span class="test-case-title">
                                     <span class="success-color">
-                                    Add A New Todo
+                                    To Verify The The Navigation Is Working As Expected
                                         <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -114,9 +114,38 @@
 
     <div class="clr"></div>
 
+    <div class="story-title">
+        <h3 class="story-header">Scenario Outline</h3>
+
+        <div class="scenario">Given I navigate to Kobil Application<br>When  I click on the "&lt;Link&gt;"<br>Then  I should be Navigated to "&lt;pageTitile&gt;"<br></div>
+
+    </div>
 
     <div id="beforetable"></div>
 
+
+        <h3 class="story-header">Examples:</h3>
+            <div class="requirementNarrative"></div>
+        <div class="example-table">
+            <table>
+                <thead>
+                <tr>
+                    <th>#</th>
+                        <th>Link</th>
+                        <th>Pagetitile</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#0">1</a></td>
+                            <td class="test-SUCCESS"><a href="#0">Start Demo</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">KOBIL Trusted Sign</a>
+                            </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
     <div id="tablecontents">
         <div>
@@ -137,52 +166,97 @@
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         <a name="0"/>
-                            <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
                     </td>
                     <td>
                         <div class="step-description">
-                            <span class="top-level-step">Given the todo application</span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">25.68s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        <a name="1"/>
-                            <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="top-level-step">When the todo action 'Digitize Supreme Power Collection' is added</span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">6.55s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        <a name="2"/>
-                            <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="top-level-step">Then 'Digitize Supreme Power Collection' should appear in the todo list</span>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                               style="display:block;">
+                            <span class="top-level-step">To verify the the navigation is working as expected #1: {Link=Start Demo, pageTitile=KOBIL Trusted Sign}</span>
+                            </a>
 
                         </div>
                     </td>
                     <td width="100"><span class="top-level-step">SUCCESS</span></td>
                     <td width="100"><span class="top-level-step">0s</span></td>
                 </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection0" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">Given I navigate to Kobil Application</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">8s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">When I click on the "Start Demo"</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.28s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Then I should be Navigated to "KOBIL Trusted Sign"</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0.38s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">message</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.36s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
                 <tr class="test-SUCCESS">
                     <td colspan="2"></td>
                     <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>32.38s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>8.95s</em></span></td>
                 </tr>
 
             </table>
