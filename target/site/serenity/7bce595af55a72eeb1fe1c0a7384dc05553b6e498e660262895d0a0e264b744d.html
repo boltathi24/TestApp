@@ -58,7 +58,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-04-2018 16:57</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-04-2018 17:50</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -98,9 +98,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-3x' title='FAILURE'></i></span>
                             <span class="test-case-title">
-                                    <span class="success-color">
+                                    <span class="failing-color">
                                     To Verify The Presence Of UI Elements
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -131,6 +131,7 @@
                 <thead>
                 <tr>
                     <th>#</th>
+                        <th>Testcase ID</th>
                         <th>Feature</th>
                         <th>Hyperlink</th>
                         <th>Textbox</th>
@@ -140,31 +141,37 @@
                 <tbody>
                     <tr>
                         <td class="test-SUCCESS"><a href="#0">1</a></td>
-                            <td class="test-SUCCESS"><a href="#0">Sign Up</a>
+                            <td class="test-SUCCESS"><a href="#0">TC_TrustedSign_025</a>
                             </td>
-                            <td class="test-SUCCESS"><a href="#0">Go to Help Center</a>
+                            <td class="test-SUCCESS"><a href="#0">Home Page</a>
                             </td>
-                            <td class="test-SUCCESS"><a href="#0">Email Address</a>
+                            <td class="test-SUCCESS"><a href="#0">NA</a>
                             </td>
-                            <td class="test-SUCCESS"><a href="#0">Sign up</a>
+                            <td class="test-SUCCESS"><a href="#0">NA</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">Start Demo</a>
                             </td>
                     </tr>
                     <tr>
-                        <td class="test-SUCCESS"><a href="#1">2</a></td>
-                            <td class="test-SUCCESS"><a href="#1">Login Trusted Sign</a>
+                        <td class="test-FAILURE"><a href="#1">2</a></td>
+                            <td class="test-FAILURE"><a href="#1">TC_TrustedSign_026</a>
                             </td>
-                            <td class="test-SUCCESS"><a href="#1">Switch to Trusted OTP</a>
+                            <td class="test-FAILURE"><a href="#1">Sign Up</a>
                             </td>
-                            <td class="test-SUCCESS"><a href="#1">Email Address</a>
+                            <td class="test-FAILURE"><a href="#1">Go to He Center</a>
                             </td>
-                            <td class="test-SUCCESS"><a href="#1">Log in</a>
+                            <td class="test-FAILURE"><a href="#1">Email Address</a>
+                            </td>
+                            <td class="test-FAILURE"><a href="#1">Sign up</a>
                             </td>
                     </tr>
                     <tr>
                         <td class="test-SUCCESS"><a href="#2">3</a></td>
-                            <td class="test-SUCCESS"><a href="#2">Login Trusted OTP</a>
+                            <td class="test-SUCCESS"><a href="#2">TC_TrustedSign_027</a>
                             </td>
-                            <td class="test-SUCCESS"><a href="#2">Switch to Trusted Sign</a>
+                            <td class="test-SUCCESS"><a href="#2">Login Trusted Sign</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#2">Switch to Trusted OTP</a>
                             </td>
                             <td class="test-SUCCESS"><a href="#2">Email Address</a>
                             </td>
@@ -173,13 +180,28 @@
                     </tr>
                     <tr>
                         <td class="test-SUCCESS"><a href="#3">4</a></td>
-                            <td class="test-SUCCESS"><a href="#3">Activate</a>
+                            <td class="test-SUCCESS"><a href="#3">TC_TrustedSign_028</a>
                             </td>
-                            <td class="test-SUCCESS"><a href="#3">Create an account</a>
+                            <td class="test-SUCCESS"><a href="#3">Login Trusted OTP</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#3">Switch to Trusted Sign</a>
                             </td>
                             <td class="test-SUCCESS"><a href="#3">Email Address</a>
                             </td>
-                            <td class="test-SUCCESS"><a href="#3">Activate New Device</a>
+                            <td class="test-SUCCESS"><a href="#3">Log in</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#4">5</a></td>
+                            <td class="test-SUCCESS"><a href="#4">TC_TrustedSign_029</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">Activate</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">Create an account</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">Email Address</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">Activate New Device</a>
                             </td>
                     </tr>
                 </tbody>
@@ -202,12 +224,12 @@
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-FAILURE">
                     <td width="60" class="step-icon">
                         <a name="0"/>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                <i class="fa fa-plus-square-o imgstepSection0 failure-icon"
                                    style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
@@ -215,22 +237,265 @@
                         <div class="step-description">
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block;">
-                            <span class="top-level-step">To verify the presence of UI elements #1: {feature=Sign Up, HyperLink=Go to Help Center, textBox=Email Address, button=Sign up}</span>
+                            <span class="top-level-step">To verify the presence of UI elements #1: {TestCase ID=TC_TrustedSign_025, feature=Home Page, HyperLink=NA, textBox=NA, button=Start Demo}</span>
                             </a>
 
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">FAILURE</span></td>
                     <td width="100"><span class="top-level-step">0s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
                     <table id="stepSection0" style="display:none; width:100%">
 
-                <tr class="test-SUCCESS">
+                <tr class="test-FAILURE">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Given I navigate to Kobil web Application</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-step">0s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">message</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.33s</span></td>
+                </tr>
+                <tr class="test-FAILURE">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">When I check the in "Home Page" of the Application</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-step">0s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 80px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">message</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.39s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 80px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Then It should have "NA","NA" and "Start Demo"</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">1.28s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 100px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">message</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">1.11s</span></td>
+                </tr>
+
+                <tr class="test-FAILURE">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 80px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">To verify the presence of UI elements #2: {TestCase ID=TC_TrustedSign_026, feature=Sign Up, HyperLink=Go to He Center, textBox=Email Address, button=Sign up}</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-step">0s</span></td>
+                </tr>
+                <tr class="test-FAILURE">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 100px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Given I navigate to Kobil web Application</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-step">0s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 120px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">message</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.34s</span></td>
+                </tr>
+                <tr class="test-FAILURE">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 120px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">When I check the in "Sign Up" of the Application</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-step">0.53s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 140px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">message</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0.29s</span></td>
+                </tr>
+                <tr class="test-FAILURE">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 140px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">Then It should have "Go to He Center","Email Address" and "Sign up"</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-group-step">0.23s</span></td>
+                </tr>
+                    <tr class="test-FAILURE">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="4" class="error-message-cell">
+                            <div class="error-message ellipsis"
+                                 title='Assertion error: expected:&lt;[Y]&gt; but was:&lt;[N]&gt;'>
+                                <pre>Assertion error: expected:&lt;[Y]&gt; but was:&lt;[N]&gt;</pre>
+                            </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger btn-sm" data-toggle="modal"
+                            data-target="#stacktraceModal-13">
+                        View stack trace
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-13" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                java.lang.AssertionError
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>expected:<[Y]> but was:<[N]></h5>
+                                page.ValidateUI.validateUI(ValidateUI.java
+                                    :70) <br>
+                                steps.StepDefinitions.it_should_have_and(StepDefinitions.java
+                                    :115) <br>
+                                ✽.Then It should have "Go to He Center","Email Address" and "Sign up"(Kobil.feature
+                                    :34) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        </td>
+                    </tr>
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 120px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">To verify the presence of UI elements #3: {TestCase ID=TC_TrustedSign_027, feature=Login Trusted Sign, HyperLink=Switch to Trusted OTP, textBox=Email Address, button=Log in}</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">0s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 140px; margin-right: 5px;"
                                   class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
@@ -245,7 +510,7 @@
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
-                            <span style="margin-left: 60px; margin-right: 5px;"
+                            <span style="margin-left: 160px; margin-right: 5px;"
                                   class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
@@ -260,113 +525,7 @@
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
-                            <span style="margin-left: 60px; margin-right: 5px;"
-                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-step">When I check the in "Sign Up" of the Application</span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">0s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 80px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">message</span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.31s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 80px; margin-right: 5px;"
-                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-step">Then It should have "Go to Help Center","Email Address" and "Sign up"</span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">1.44s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 100px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">message</span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">1.2s</span></td>
-                </tr>
-
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 80px; margin-right: 5px;"
-                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-step">To verify the presence of UI elements #2: {feature=Login Trusted Sign, HyperLink=Switch to Trusted OTP, textBox=Email Address, button=Log in}</span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">0s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 100px; margin-right: 5px;"
-                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-step">Given I navigate to Kobil web Application</span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">0s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 120px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">message</span>
-
-                        </div>
-                    </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.35s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 120px; margin-right: 5px;"
+                            <span style="margin-left: 160px; margin-right: 5px;"
                                   class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
@@ -381,7 +540,7 @@
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
-                            <span style="margin-left: 140px; margin-right: 5px;"
+                            <span style="margin-left: 180px; margin-right: 5px;"
                                   class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
@@ -391,12 +550,12 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.26s</span></td>
+                    <td width="100"><span class="nested-group-step">0.27s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
-                            <span style="margin-left: 140px; margin-right: 5px;"
+                            <span style="margin-left: 180px; margin-right: 5px;"
                                   class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
@@ -406,12 +565,12 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">1.39s</span></td>
+                    <td width="100"><span class="nested-step">1.53s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
-                            <span style="margin-left: 160px; margin-right: 5px;"
+                            <span style="margin-left: 200px; margin-right: 5px;"
                                   class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
@@ -421,18 +580,18 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">1.17s</span></td>
+                    <td width="100"><span class="nested-group-step">1.28s</span></td>
                 </tr>
 
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
-                            <span style="margin-left: 140px; margin-right: 5px;"
+                            <span style="margin-left: 180px; margin-right: 5px;"
                                   class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
-                            <span class="nested-step">To verify the presence of UI elements #3: {feature=Login Trusted OTP, HyperLink=Switch to Trusted Sign, textBox=Email Address, button=Log in}</span>
+                            <span class="nested-step">To verify the presence of UI elements #4: {TestCase ID=TC_TrustedSign_028, feature=Login Trusted OTP, HyperLink=Switch to Trusted Sign, textBox=Email Address, button=Log in}</span>
 
                         </div>
                     </td>
@@ -442,7 +601,7 @@
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
-                            <span style="margin-left: 160px; margin-right: 5px;"
+                            <span style="margin-left: 200px; margin-right: 5px;"
                                   class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
@@ -457,7 +616,7 @@
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
-                            <span style="margin-left: 180px; margin-right: 5px;"
+                            <span style="margin-left: 220px; margin-right: 5px;"
                                   class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
@@ -467,12 +626,12 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.33s</span></td>
+                    <td width="100"><span class="nested-group-step">0.36s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
-                            <span style="margin-left: 180px; margin-right: 5px;"
+                            <span style="margin-left: 220px; margin-right: 5px;"
                                   class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
@@ -487,7 +646,7 @@
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
-                            <span style="margin-left: 200px; margin-right: 5px;"
+                            <span style="margin-left: 240px; margin-right: 5px;"
                                   class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
@@ -497,12 +656,12 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.3s</span></td>
+                    <td width="100"><span class="nested-group-step">0.32s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
-                            <span style="margin-left: 200px; margin-right: 5px;"
+                            <span style="margin-left: 240px; margin-right: 5px;"
                                   class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
@@ -512,12 +671,12 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">1.28s</span></td>
+                    <td width="100"><span class="nested-step">1.33s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
-                            <span style="margin-left: 220px; margin-right: 5px;"
+                            <span style="margin-left: 260px; margin-right: 5px;"
                                   class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
@@ -527,18 +686,18 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">1.08s</span></td>
+                    <td width="100"><span class="nested-group-step">1.07s</span></td>
                 </tr>
 
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
-                            <span style="margin-left: 200px; margin-right: 5px;"
+                            <span style="margin-left: 240px; margin-right: 5px;"
                                   class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
-                            <span class="nested-step">To verify the presence of UI elements #4: {feature=Activate, HyperLink=Create an account, textBox=Email Address, button=Activate New Device}</span>
+                            <span class="nested-step">To verify the presence of UI elements #5: {TestCase ID=TC_TrustedSign_029, feature=Activate, HyperLink=Create an account, textBox=Email Address, button=Activate New Device}</span>
 
                         </div>
                     </td>
@@ -548,7 +707,7 @@
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
-                            <span style="margin-left: 220px; margin-right: 5px;"
+                            <span style="margin-left: 260px; margin-right: 5px;"
                                   class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
@@ -563,7 +722,7 @@
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
-                            <span style="margin-left: 240px; margin-right: 5px;"
+                            <span style="margin-left: 280px; margin-right: 5px;"
                                   class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
@@ -573,12 +732,12 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.33s</span></td>
+                    <td width="100"><span class="nested-group-step">0.35s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
-                            <span style="margin-left: 240px; margin-right: 5px;"
+                            <span style="margin-left: 280px; margin-right: 5px;"
                                   class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
@@ -593,7 +752,7 @@
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
-                            <span style="margin-left: 260px; margin-right: 5px;"
+                            <span style="margin-left: 300px; margin-right: 5px;"
                                   class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
@@ -603,12 +762,12 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.31s</span></td>
+                    <td width="100"><span class="nested-group-step">0.29s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
-                            <span style="margin-left: 260px; margin-right: 5px;"
+                            <span style="margin-left: 300px; margin-right: 5px;"
                                   class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
@@ -618,12 +777,12 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">1.19s</span></td>
+                    <td width="100"><span class="nested-step">1.17s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
-                            <span style="margin-left: 280px; margin-right: 5px;"
+                            <span style="margin-left: 320px; margin-right: 5px;"
                                   class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
@@ -633,8 +792,10 @@
                         </div>
                     </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">1.04s</span></td>
+                    <td width="100"><span class="nested-group-step">1.03s</span></td>
                 </tr>
+
+
 
 
 
@@ -651,10 +812,10 @@
                     </table>
                     </td>
                     <tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-FAILURE">
                     <td colspan="2"></td>
-                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>54.29s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>FAILURE</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>80.24s</em></span></td>
                 </tr>
 
             </table>

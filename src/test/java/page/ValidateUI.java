@@ -24,6 +24,10 @@ public class ValidateUI {
 		{
 			l.helpLink().click();
 		}
+		else if(feature.contains("Home"))
+		{
+			Setup.getDriver().navigate().back();
+		}
 	}
 
 	public void validateUI(String hyperLink, String txtBox, String button) {
@@ -34,6 +38,7 @@ public class ValidateUI {
 		List<WebElement> actualButtons=Setup.getDriver().findElements(By.xpath("//button"));
 		List<WebElement> actualHyperLinks=Setup.getDriver().findElements(By.xpath("//a"));
 		List<WebElement> actualTxtBox=Setup.getDriver().findElements(By.xpath("//input/following-sibling::label"));
+		
 		for(WebElement a:actualButtons)
 		{
 			System.out.println(a.getText());
@@ -43,6 +48,8 @@ public class ValidateUI {
 			}
 				
 		}
+		if(!feature.contains("Home"))
+{
 		for(WebElement b:actualHyperLinks)
 		{
 			if(b.getText().contains(hyperLink))
@@ -59,9 +66,12 @@ public class ValidateUI {
 			}
 				
 		}
-		Assert.assertEquals("Y", actualButton);
+		
 		Assert.assertEquals("Y", actualHyperLink);
 		Assert.assertEquals("Y", actualTxt);
+}
+		Assert.assertEquals("Y", actualButton);
+
 		
 	}
 

@@ -9,7 +9,6 @@ import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import page.ActivationPage;
 import page.HomePage;
 import page.Login_SignUP_Page;
 import page.Navigation;
@@ -17,13 +16,14 @@ import page.Setup;
 import page.ValidateUI;
 
 public class StepDefinitions {
-//private ActivationPage activate=new ActivationPage();
+
 private Login_SignUP_Page login_signUP=new Login_SignUP_Page();
 private HomePage home=new HomePage();
 private Navigation navigate=new Navigation();
 private ValidateUI validateUIScreen=new ValidateUI();
 private Setup set=new Setup();
 private Scenario myScenario;
+
 @Before()
 public void embedScreenshotStep(Scenario scenario) {
 

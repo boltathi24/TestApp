@@ -43,6 +43,7 @@ formatter.examples({
   "rows": [
     {
       "cells": [
+        "TestCase ID",
         "Link",
         "pageTitile"
       ],
@@ -51,6 +52,7 @@ formatter.examples({
     },
     {
       "cells": [
+        "TC_TrustedSign_015",
         "Start Demo",
         "KOBIL Trusted Sign"
       ],
@@ -59,7 +61,8 @@ formatter.examples({
     },
     {
       "cells": [
-        "Login Help",
+        "TC_TrustedSign_016",
+        "Help in Trusted OTP",
         "KOBIL mAST - Help"
       ],
       "line": 12,
@@ -67,32 +70,36 @@ formatter.examples({
     },
     {
       "cells": [
-        "Activate Create",
-        "KOBIL Trusted Sign"
+        "TC_TrustedSign_021",
+        "Login Help",
+        "KOBIL mAST - Help"
       ],
       "line": 13,
       "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-the-navigation-is-working-as-expected;;4"
     },
     {
       "cells": [
-        "Login switch OTP",
-        "OTP Login"
+        "TC_TrustedSign_022",
+        "Activate Create",
+        "KOBIL Trusted Sign"
       ],
       "line": 14,
       "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-the-navigation-is-working-as-expected;;5"
     },
     {
       "cells": [
-        "Login switch Sign",
-        "KOBIL Trusted Sign"
+        "TC_TrustedSign_023",
+        "Login switch OTP",
+        "OTP Login"
       ],
       "line": 15,
       "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-the-navigation-is-working-as-expected;;6"
     },
     {
       "cells": [
-        "Help in Trusted OTP",
-        "KOBIL mAST - Help"
+        "TC_TrustedSign_024",
+        "Login switch Sign",
+        "KOBIL Trusted Sign"
       ],
       "line": 16,
       "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-the-navigation-is-working-as-expected;;7"
@@ -101,7 +108,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 53402094,
+  "duration": 68065526,
   "status": "passed"
 });
 formatter.scenario({
@@ -127,7 +134,7 @@ formatter.step({
   "line": 6,
   "name": "I click on the \"Start Demo\"",
   "matchedColumns": [
-    0
+    1
   ],
   "keyword": "When "
 });
@@ -135,7 +142,7 @@ formatter.step({
   "line": 7,
   "name": "I should be Navigated to \"KOBIL Trusted Sign\"",
   "matchedColumns": [
-    1
+    2
   ],
   "keyword": "Then "
 });
@@ -145,7 +152,7 @@ formatter.match({
 formatter.write("Current Page Title is KOBIL mAST - Designed, developed and made in Germany");
 formatter.embedding("image/png", "embedded0.png");
 formatter.result({
-  "duration": 9630952376,
+  "duration": 10563445525,
   "status": "passed"
 });
 formatter.match({
@@ -160,7 +167,7 @@ formatter.match({
 formatter.write("Current Page Title is KOBIL Trusted Sign");
 formatter.embedding("image/png", "embedded1.png");
 formatter.result({
-  "duration": 432174768,
+  "duration": 470592147,
   "status": "passed"
 });
 formatter.match({
@@ -175,11 +182,11 @@ formatter.match({
 formatter.write("Current Page Title is KOBIL Trusted Sign");
 formatter.embedding("image/png", "embedded2.png");
 formatter.result({
-  "duration": 1055861692,
+  "duration": 1124727746,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4733565,
+  "duration": 5974073,
   "status": "passed"
 });
 formatter.scenario({
@@ -203,9 +210,9 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "I click on the \"Login Help\"",
+  "name": "I click on the \"Help in Trusted OTP\"",
   "matchedColumns": [
-    0
+    1
   ],
   "keyword": "When "
 });
@@ -213,7 +220,7 @@ formatter.step({
   "line": 7,
   "name": "I should be Navigated to \"KOBIL mAST - Help\"",
   "matchedColumns": [
-    1
+    2
   ],
   "keyword": "Then "
 });
@@ -223,13 +230,13 @@ formatter.match({
 formatter.write("Current Page Title is KOBIL mAST - Designed, developed and made in Germany");
 formatter.embedding("image/png", "embedded3.png");
 formatter.result({
-  "duration": 8058073633,
+  "duration": 8764736724,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Login Help",
+      "val": "Help in Trusted OTP",
       "offset": 16
     }
   ],
@@ -238,7 +245,7 @@ formatter.match({
 formatter.write("Current Page Title is KOBIL mAST - Help");
 formatter.embedding("image/png", "embedded4.png");
 formatter.result({
-  "duration": 585994216,
+  "duration": 668119876,
   "status": "passed"
 });
 formatter.match({
@@ -253,11 +260,11 @@ formatter.match({
 formatter.write("Current Page Title is KOBIL mAST - Help");
 formatter.embedding("image/png", "embedded5.png");
 formatter.result({
-  "duration": 989573037,
+  "duration": 995817524,
   "status": "passed"
 });
 formatter.before({
-  "duration": 10142270,
+  "duration": 6690712,
   "status": "passed"
 });
 formatter.scenario({
@@ -281,17 +288,17 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "I click on the \"Activate Create\"",
+  "name": "I click on the \"Login Help\"",
   "matchedColumns": [
-    0
+    1
   ],
   "keyword": "When "
 });
 formatter.step({
   "line": 7,
-  "name": "I should be Navigated to \"KOBIL Trusted Sign\"",
+  "name": "I should be Navigated to \"KOBIL mAST - Help\"",
   "matchedColumns": [
-    1
+    2
   ],
   "keyword": "Then "
 });
@@ -301,41 +308,41 @@ formatter.match({
 formatter.write("Current Page Title is KOBIL mAST - Designed, developed and made in Germany");
 formatter.embedding("image/png", "embedded6.png");
 formatter.result({
-  "duration": 7687915352,
+  "duration": 8154570447,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Activate Create",
+      "val": "Login Help",
       "offset": 16
     }
   ],
   "location": "StepDefinitions.i_click_on_the(String)"
 });
-formatter.write("Current Page Title is KOBIL Trusted Sign");
+formatter.write("Current Page Title is KOBIL mAST - Help");
 formatter.embedding("image/png", "embedded7.png");
 formatter.result({
-  "duration": 690258932,
+  "duration": 569815847,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "KOBIL Trusted Sign",
+      "val": "KOBIL mAST - Help",
       "offset": 26
     }
   ],
   "location": "StepDefinitions.i_should_be_Navigated_to(String)"
 });
-formatter.write("Current Page Title is KOBIL Trusted Sign");
+formatter.write("Current Page Title is KOBIL mAST - Help");
 formatter.embedding("image/png", "embedded8.png");
 formatter.result({
-  "duration": 998838920,
+  "duration": 1130921809,
   "status": "passed"
 });
 formatter.before({
-  "duration": 6505975,
+  "duration": 5600136,
   "status": "passed"
 });
 formatter.scenario({
@@ -359,17 +366,17 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "I click on the \"Login switch OTP\"",
+  "name": "I click on the \"Activate Create\"",
   "matchedColumns": [
-    0
+    1
   ],
   "keyword": "When "
 });
 formatter.step({
   "line": 7,
-  "name": "I should be Navigated to \"OTP Login\"",
+  "name": "I should be Navigated to \"KOBIL Trusted Sign\"",
   "matchedColumns": [
-    1
+    2
   ],
   "keyword": "Then "
 });
@@ -379,41 +386,41 @@ formatter.match({
 formatter.write("Current Page Title is KOBIL mAST - Designed, developed and made in Germany");
 formatter.embedding("image/png", "embedded9.png");
 formatter.result({
-  "duration": 7331501725,
+  "duration": 7601959735,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Login switch OTP",
+      "val": "Activate Create",
       "offset": 16
     }
   ],
   "location": "StepDefinitions.i_click_on_the(String)"
 });
-formatter.write("Current Page Title is OTP Login");
+formatter.write("Current Page Title is KOBIL Trusted Sign");
 formatter.embedding("image/png", "embedded10.png");
 formatter.result({
-  "duration": 555084142,
+  "duration": 692020186,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "OTP Login",
+      "val": "KOBIL Trusted Sign",
       "offset": 26
     }
   ],
   "location": "StepDefinitions.i_should_be_Navigated_to(String)"
 });
-formatter.write("Current Page Title is OTP Login");
+formatter.write("Current Page Title is KOBIL Trusted Sign");
 formatter.embedding("image/png", "embedded11.png");
 formatter.result({
-  "duration": 1009634465,
+  "duration": 1004509559,
   "status": "passed"
 });
 formatter.before({
-  "duration": 6172197,
+  "duration": 6380139,
   "status": "passed"
 });
 formatter.scenario({
@@ -437,17 +444,17 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "I click on the \"Login switch Sign\"",
+  "name": "I click on the \"Login switch OTP\"",
   "matchedColumns": [
-    0
+    1
   ],
   "keyword": "When "
 });
 formatter.step({
   "line": 7,
-  "name": "I should be Navigated to \"KOBIL Trusted Sign\"",
+  "name": "I should be Navigated to \"OTP Login\"",
   "matchedColumns": [
-    1
+    2
   ],
   "keyword": "Then "
 });
@@ -457,41 +464,41 @@ formatter.match({
 formatter.write("Current Page Title is KOBIL mAST - Designed, developed and made in Germany");
 formatter.embedding("image/png", "embedded12.png");
 formatter.result({
-  "duration": 8501654829,
+  "duration": 9765817037,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Login switch Sign",
+      "val": "Login switch OTP",
       "offset": 16
     }
   ],
   "location": "StepDefinitions.i_click_on_the(String)"
 });
-formatter.write("Current Page Title is KOBIL Trusted Sign");
+formatter.write("Current Page Title is OTP Login");
 formatter.embedding("image/png", "embedded13.png");
 formatter.result({
-  "duration": 677782007,
+  "duration": 565049707,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "KOBIL Trusted Sign",
+      "val": "OTP Login",
       "offset": 26
     }
   ],
   "location": "StepDefinitions.i_should_be_Navigated_to(String)"
 });
-formatter.write("Current Page Title is KOBIL Trusted Sign");
+formatter.write("Current Page Title is OTP Login");
 formatter.embedding("image/png", "embedded14.png");
 formatter.result({
-  "duration": 1147259927,
+  "duration": 1048907706,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5468500,
+  "duration": 5286885,
   "status": "passed"
 });
 formatter.scenario({
@@ -515,17 +522,17 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "I click on the \"Help in Trusted OTP\"",
+  "name": "I click on the \"Login switch Sign\"",
   "matchedColumns": [
-    0
+    1
   ],
   "keyword": "When "
 });
 formatter.step({
   "line": 7,
-  "name": "I should be Navigated to \"KOBIL mAST - Help\"",
+  "name": "I should be Navigated to \"KOBIL Trusted Sign\"",
   "matchedColumns": [
-    1
+    2
   ],
   "keyword": "Then "
 });
@@ -535,41 +542,41 @@ formatter.match({
 formatter.write("Current Page Title is KOBIL mAST - Designed, developed and made in Germany");
 formatter.embedding("image/png", "embedded15.png");
 formatter.result({
-  "duration": 20061362319,
+  "duration": 9665791915,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Help in Trusted OTP",
+      "val": "Login switch Sign",
       "offset": 16
     }
   ],
   "location": "StepDefinitions.i_click_on_the(String)"
 });
-formatter.write("Current Page Title is KOBIL mAST - Help");
+formatter.write("Current Page Title is KOBIL Trusted Sign");
 formatter.embedding("image/png", "embedded16.png");
 formatter.result({
-  "duration": 631726132,
+  "duration": 719384102,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "KOBIL mAST - Help",
+      "val": "KOBIL Trusted Sign",
       "offset": 26
     }
   ],
   "location": "StepDefinitions.i_should_be_Navigated_to(String)"
 });
-formatter.write("Current Page Title is KOBIL mAST - Help");
+formatter.write("Current Page Title is KOBIL Trusted Sign");
 formatter.embedding("image/png", "embedded17.png");
 formatter.result({
-  "duration": 1038419164,
+  "duration": 1035956889,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 18,
+  "line": 19,
   "name": "To verify the the Sign is working as expected",
   "description": "",
   "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-the-sign-is-working-as-expected",
@@ -577,80 +584,85 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 19,
+  "line": 20,
   "name": "I navigate to Kobil Application Sign Up Page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 20,
+  "line": 21,
   "name": "I Sign up with \"\u003cemailId\u003e\" and condition as \"\u003cCondition\u003e\"",
   "keyword": "When "
 });
 formatter.step({
-  "line": 21,
+  "line": 22,
   "name": "I should get the Message as \"\u003cexpected\u003e\"",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 23,
+  "line": 24,
   "name": "",
   "description": "",
   "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-the-sign-is-working-as-expected;",
   "rows": [
     {
       "cells": [
+        "Test Case ID",
         "Condition",
         "expected",
-        "emailID"
+        "emailId"
       ],
-      "line": 24,
+      "line": 25,
       "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-the-sign-is-working-as-expected;;1"
     },
     {
       "cells": [
+        "TC_TrustedSign_001",
         "Captcha Not Checked",
         "Please verify your identity with captcha",
         "athithya24@gmail.com"
       ],
-      "line": 25,
+      "line": 26,
       "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-the-sign-is-working-as-expected;;2"
     },
     {
       "cells": [
+        "TC_TrustedSign_006",
         "Invalid Email Trusted Sign",
         "You\u0027re account doesn\u0027t exists, please check your Email",
         "ab@gmail.com"
       ],
-      "line": 26,
+      "line": 27,
       "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-the-sign-is-working-as-expected;;3"
     },
     {
       "cells": [
+        "TC_TrustedSign_008",
         "Invalid Email Trusted OTP",
         "Getting user certificates failed.",
         "ab@gmail.com"
       ],
-      "line": 27,
+      "line": 28,
       "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-the-sign-is-working-as-expected;;4"
     },
     {
       "cells": [
+        "TC_TrustedSign_010",
         "Captacha Not checked Activate",
         "Please verify your identity with captcha",
         "athithya24@gmail.com"
       ],
-      "line": 28,
+      "line": 29,
       "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-the-sign-is-working-as-expected;;5"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 2887528,
+  "duration": 1687181,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 25,
+  "line": 26,
   "name": "To verify the the Sign is working as expected",
   "description": "",
   "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-the-sign-is-working-as-expected;;2",
@@ -664,23 +676,24 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "line": 19,
+  "line": 20,
   "name": "I navigate to Kobil Application Sign Up Page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 20,
-  "name": "I Sign up with \"\u003cemailId\u003e\" and condition as \"Captcha Not Checked\"",
+  "line": 21,
+  "name": "I Sign up with \"athithya24@gmail.com\" and condition as \"Captcha Not Checked\"",
   "matchedColumns": [
-    0
+    1,
+    3
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 21,
+  "line": 22,
   "name": "I should get the Message as \"Please verify your identity with captcha\"",
   "matchedColumns": [
-    1
+    2
   ],
   "keyword": "Then "
 });
@@ -690,18 +703,18 @@ formatter.match({
 formatter.write("Current Page Title is KOBIL Trusted Sign");
 formatter.embedding("image/png", "embedded18.png");
 formatter.result({
-  "duration": 18463353914,
+  "duration": 9448874328,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "\u003cemailId\u003e",
+      "val": "athithya24@gmail.com",
       "offset": 16
     },
     {
       "val": "Captcha Not Checked",
-      "offset": 45
+      "offset": 56
     }
   ],
   "location": "StepDefinitions.i_Sign_up_with_and_condition_as(String,String)"
@@ -709,7 +722,7 @@ formatter.match({
 formatter.write("Current Page Title is KOBIL Trusted Sign");
 formatter.embedding("image/png", "embedded19.png");
 formatter.result({
-  "duration": 539654541,
+  "duration": 638874672,
   "status": "passed"
 });
 formatter.match({
@@ -724,15 +737,15 @@ formatter.match({
 formatter.write("Current Page Title is KOBIL Trusted Sign");
 formatter.embedding("image/png", "embedded20.png");
 formatter.result({
-  "duration": 11123948190,
+  "duration": 11296783559,
   "status": "passed"
 });
 formatter.before({
-  "duration": 7503736,
+  "duration": 4394434,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 26,
+  "line": 27,
   "name": "To verify the the Sign is working as expected",
   "description": "",
   "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-the-sign-is-working-as-expected;;3",
@@ -746,23 +759,24 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "line": 19,
+  "line": 20,
   "name": "I navigate to Kobil Application Sign Up Page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 20,
-  "name": "I Sign up with \"\u003cemailId\u003e\" and condition as \"Invalid Email Trusted Sign\"",
+  "line": 21,
+  "name": "I Sign up with \"ab@gmail.com\" and condition as \"Invalid Email Trusted Sign\"",
   "matchedColumns": [
-    0
+    1,
+    3
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 21,
+  "line": 22,
   "name": "I should get the Message as \"You\u0027re account doesn\u0027t exists, please check your Email\"",
   "matchedColumns": [
-    1
+    2
   ],
   "keyword": "Then "
 });
@@ -772,18 +786,18 @@ formatter.match({
 formatter.write("Current Page Title is KOBIL Trusted Sign");
 formatter.embedding("image/png", "embedded21.png");
 formatter.result({
-  "duration": 20066843759,
+  "duration": 8335716329,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "\u003cemailId\u003e",
+      "val": "ab@gmail.com",
       "offset": 16
     },
     {
       "val": "Invalid Email Trusted Sign",
-      "offset": 45
+      "offset": 48
     }
   ],
   "location": "StepDefinitions.i_Sign_up_with_and_condition_as(String,String)"
@@ -791,7 +805,7 @@ formatter.match({
 formatter.write("Current Page Title is KOBIL Trusted Sign");
 formatter.embedding("image/png", "embedded22.png");
 formatter.result({
-  "duration": 607691508,
+  "duration": 583517216,
   "status": "passed"
 });
 formatter.match({
@@ -803,18 +817,17 @@ formatter.match({
   ],
   "location": "StepDefinitions.i_should_get_the_Message_as(String)"
 });
-formatter.write("Current Page Title is KOBIL Trusted Sign");
-formatter.embedding("image/png", "embedded23.png");
 formatter.result({
-  "duration": 11123823693,
-  "status": "passed"
+  "duration": 10055062054,
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//p[@class\u003d\u0027form-error-message\u0027]\"}\n  (Session info: chrome\u003d65.0.3325.181)\n  (Driver info: chromedriver\u003d2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform\u003dWindows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027BOLT\u0027, ip: \u0027192.168.43.228\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_144\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.36.540470 (e522d04694c7eb..., userDataDir: C:\\Users\\BoltAthi\\AppData\\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}\nSession ID: 2e62903de159427956c121316e8b73c0\n*** Element info: {Using\u003dxpath, value\u003d//p[@class\u003d\u0027form-error-message\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\r\n\tat page.Login_SignUP_Page.errorMessage(Login_SignUP_Page.java:49)\r\n\tat page.Login_SignUP_Page.validateError(Login_SignUP_Page.java:101)\r\n\tat steps.StepDefinitions.i_should_get_the_Message_as(StepDefinitions.java:90)\r\n\tat ✽.Then I should get the Message as \"You\u0027re account doesn\u0027t exists, please check your Email\"(Kobil.feature:22)\r\n",
+  "status": "failed"
 });
 formatter.before({
-  "duration": 3332862,
+  "duration": 1820602,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 27,
+  "line": 28,
   "name": "To verify the the Sign is working as expected",
   "description": "",
   "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-the-sign-is-working-as-expected;;4",
@@ -828,23 +841,24 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "line": 19,
+  "line": 20,
   "name": "I navigate to Kobil Application Sign Up Page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 20,
-  "name": "I Sign up with \"\u003cemailId\u003e\" and condition as \"Invalid Email Trusted OTP\"",
+  "line": 21,
+  "name": "I Sign up with \"ab@gmail.com\" and condition as \"Invalid Email Trusted OTP\"",
   "matchedColumns": [
-    0
+    1,
+    3
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 21,
+  "line": 22,
   "name": "I should get the Message as \"Getting user certificates failed.\"",
   "matchedColumns": [
-    1
+    2
   ],
   "keyword": "Then "
 });
@@ -852,28 +866,28 @@ formatter.match({
   "location": "StepDefinitions.i_navigate_to_Kobil_Application_Sign_Up_Page()"
 });
 formatter.write("Current Page Title is KOBIL Trusted Sign");
-formatter.embedding("image/png", "embedded24.png");
+formatter.embedding("image/png", "embedded23.png");
 formatter.result({
-  "duration": 34907214448,
+  "duration": 10962219385,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "\u003cemailId\u003e",
+      "val": "ab@gmail.com",
       "offset": 16
     },
     {
       "val": "Invalid Email Trusted OTP",
-      "offset": 45
+      "offset": 48
     }
   ],
   "location": "StepDefinitions.i_Sign_up_with_and_condition_as(String,String)"
 });
 formatter.write("Current Page Title is OTP Login");
-formatter.embedding("image/png", "embedded25.png");
+formatter.embedding("image/png", "embedded24.png");
 formatter.result({
-  "duration": 636193300,
+  "duration": 676845379,
   "status": "passed"
 });
 formatter.match({
@@ -886,17 +900,17 @@ formatter.match({
   "location": "StepDefinitions.i_should_get_the_Message_as(String)"
 });
 formatter.write("Current Page Title is OTP Login");
-formatter.embedding("image/png", "embedded26.png");
+formatter.embedding("image/png", "embedded25.png");
 formatter.result({
-  "duration": 11127381006,
+  "duration": 11099208529,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4008894,
+  "duration": 5758100,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 28,
+  "line": 29,
   "name": "To verify the the Sign is working as expected",
   "description": "",
   "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-the-sign-is-working-as-expected;;5",
@@ -910,23 +924,24 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "line": 19,
+  "line": 20,
   "name": "I navigate to Kobil Application Sign Up Page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 20,
-  "name": "I Sign up with \"\u003cemailId\u003e\" and condition as \"Captacha Not checked Activate\"",
+  "line": 21,
+  "name": "I Sign up with \"athithya24@gmail.com\" and condition as \"Captacha Not checked Activate\"",
   "matchedColumns": [
-    0
+    1,
+    3
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 21,
+  "line": 22,
   "name": "I should get the Message as \"Please verify your identity with captcha\"",
   "matchedColumns": [
-    1
+    2
   ],
   "keyword": "Then "
 });
@@ -934,28 +949,28 @@ formatter.match({
   "location": "StepDefinitions.i_navigate_to_Kobil_Application_Sign_Up_Page()"
 });
 formatter.write("Current Page Title is KOBIL Trusted Sign");
-formatter.embedding("image/png", "embedded27.png");
+formatter.embedding("image/png", "embedded26.png");
 formatter.result({
-  "duration": 12808913989,
+  "duration": 15297442188,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "\u003cemailId\u003e",
+      "val": "athithya24@gmail.com",
       "offset": 16
     },
     {
       "val": "Captacha Not checked Activate",
-      "offset": 45
+      "offset": 56
     }
   ],
   "location": "StepDefinitions.i_Sign_up_with_and_condition_as(String,String)"
 });
 formatter.write("Current Page Title is KOBIL mAST - Help");
-formatter.embedding("image/png", "embedded28.png");
+formatter.embedding("image/png", "embedded27.png");
 formatter.result({
-  "duration": 560993067,
+  "duration": 557273774,
   "status": "passed"
 });
 formatter.match({
@@ -968,13 +983,13 @@ formatter.match({
   "location": "StepDefinitions.i_should_get_the_Message_as(String)"
 });
 formatter.write("Current Page Title is KOBIL mAST - Help");
-formatter.embedding("image/png", "embedded29.png");
+formatter.embedding("image/png", "embedded28.png");
 formatter.result({
-  "duration": 11214665931,
+  "duration": 11054057600,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 30,
+  "line": 31,
   "name": "To verify the presence of UI elements",
   "description": "",
   "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-presence-of-ui-elements",
@@ -982,85 +997,101 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 31,
+  "line": 32,
   "name": "I navigate to Kobil web Application",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 32,
+  "line": 33,
   "name": "I check the in \"\u003cfeature\u003e\" of the Application",
   "keyword": "When "
 });
 formatter.step({
-  "line": 33,
+  "line": 34,
   "name": "It should have \"\u003cHyperLink\u003e\",\"\u003ctextBox\u003e\" and \"\u003cbutton\u003e\"",
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 35,
+  "line": 36,
   "name": "",
   "description": "",
   "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-presence-of-ui-elements;",
   "rows": [
     {
       "cells": [
+        "TestCase ID",
         "feature",
         "HyperLink",
         "textBox",
         "button"
       ],
-      "line": 36,
+      "line": 37,
       "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-presence-of-ui-elements;;1"
     },
     {
       "cells": [
-        "Sign Up",
-        "Go to Help Center",
-        "Email Address",
-        "Sign up"
+        "TC_TrustedSign_025",
+        "Home Page",
+        "NA",
+        "NA",
+        "Start Demo"
       ],
-      "line": 37,
+      "line": 38,
       "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-presence-of-ui-elements;;2"
     },
     {
       "cells": [
+        "TC_TrustedSign_026",
+        "Sign Up",
+        "Go to He Center",
+        "Email Address",
+        "Sign up"
+      ],
+      "line": 39,
+      "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-presence-of-ui-elements;;3"
+    },
+    {
+      "cells": [
+        "TC_TrustedSign_027",
         "Login Trusted Sign",
         "Switch to Trusted OTP",
         "Email Address",
         "Log in"
       ],
-      "line": 38,
-      "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-presence-of-ui-elements;;3"
+      "line": 40,
+      "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-presence-of-ui-elements;;4"
     },
     {
       "cells": [
+        "TC_TrustedSign_028",
         "Login Trusted OTP",
         "Switch to Trusted Sign",
         "Email Address",
         "Log in"
       ],
-      "line": 39,
-      "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-presence-of-ui-elements;;4"
+      "line": 41,
+      "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-presence-of-ui-elements;;5"
     },
     {
       "cells": [
+        "TC_TrustedSign_029",
         "Activate",
         "Create an account",
         "Email Address",
         "Activate New Device"
       ],
-      "line": 40,
-      "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-presence-of-ui-elements;;5"
+      "line": 42,
+      "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-presence-of-ui-elements;;6"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1343586,
+  "duration": 3046385,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 37,
+  "line": 38,
   "name": "To verify the presence of UI elements",
   "description": "",
   "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-presence-of-ui-elements;;2",
@@ -1074,25 +1105,25 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "line": 31,
+  "line": 32,
   "name": "I navigate to Kobil web Application",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 32,
-  "name": "I check the in \"Sign Up\" of the Application",
+  "line": 33,
+  "name": "I check the in \"Home Page\" of the Application",
   "matchedColumns": [
-    0
+    1
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 33,
-  "name": "It should have \"Go to Help Center\",\"Email Address\" and \"Sign up\"",
+  "line": 34,
+  "name": "It should have \"NA\",\"NA\" and \"Start Demo\"",
   "matchedColumns": [
-    1,
     2,
-    3
+    3,
+    4
   ],
   "keyword": "Then "
 });
@@ -1100,55 +1131,55 @@ formatter.match({
   "location": "StepDefinitions.i_navigate_to_Kobil_web_Application()"
 });
 formatter.write("Current Page Title is KOBIL Trusted Sign");
-formatter.embedding("image/png", "embedded30.png");
+formatter.embedding("image/png", "embedded29.png");
 formatter.result({
-  "duration": 16550777616,
+  "duration": 15491631255,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Sign Up",
+      "val": "Home Page",
       "offset": 16
     }
   ],
   "location": "StepDefinitions.i_check_the_in_of_the_Application(String)"
 });
-formatter.write("Current Page Title is KOBIL Trusted Sign");
-formatter.embedding("image/png", "embedded31.png");
+formatter.write("Current Page Title is KOBIL mAST - Designed, developed and made in Germany");
+formatter.embedding("image/png", "embedded30.png");
 formatter.result({
-  "duration": 310314915,
+  "duration": 462196405,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Go to Help Center",
+      "val": "NA",
       "offset": 16
     },
     {
-      "val": "Email Address",
-      "offset": 36
+      "val": "NA",
+      "offset": 21
     },
     {
-      "val": "Sign up",
-      "offset": 56
+      "val": "Start Demo",
+      "offset": 30
     }
   ],
   "location": "StepDefinitions.it_should_have_and(String,String,String)"
 });
-formatter.write("Current Page Title is KOBIL Trusted Sign");
-formatter.embedding("image/png", "embedded32.png");
+formatter.write("Current Page Title is KOBIL mAST - Designed, developed and made in Germany");
+formatter.embedding("image/png", "embedded31.png");
 formatter.result({
-  "duration": 1436357689,
+  "duration": 1276985404,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4310543,
+  "duration": 3494842,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 38,
+  "line": 39,
   "name": "To verify the presence of UI elements",
   "description": "",
   "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-presence-of-ui-elements;;3",
@@ -1162,25 +1193,25 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "line": 31,
+  "line": 32,
   "name": "I navigate to Kobil web Application",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 32,
-  "name": "I check the in \"Login Trusted Sign\" of the Application",
+  "line": 33,
+  "name": "I check the in \"Sign Up\" of the Application",
   "matchedColumns": [
-    0
+    1
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 33,
-  "name": "It should have \"Switch to Trusted OTP\",\"Email Address\" and \"Log in\"",
+  "line": 34,
+  "name": "It should have \"Go to He Center\",\"Email Address\" and \"Sign up\"",
   "matchedColumns": [
-    1,
     2,
-    3
+    3,
+    4
   ],
   "keyword": "Then "
 });
@@ -1188,9 +1219,96 @@ formatter.match({
   "location": "StepDefinitions.i_navigate_to_Kobil_web_Application()"
 });
 formatter.write("Current Page Title is KOBIL Trusted Sign");
+formatter.embedding("image/png", "embedded32.png");
+formatter.result({
+  "duration": 13172809042,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Sign Up",
+      "offset": 16
+    }
+  ],
+  "location": "StepDefinitions.i_check_the_in_of_the_Application(String)"
+});
+formatter.write("Current Page Title is KOBIL Trusted Sign");
 formatter.embedding("image/png", "embedded33.png");
 formatter.result({
-  "duration": 12389679328,
+  "duration": 296606853,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Go to He Center",
+      "offset": 16
+    },
+    {
+      "val": "Email Address",
+      "offset": 34
+    },
+    {
+      "val": "Sign up",
+      "offset": 54
+    }
+  ],
+  "location": "StepDefinitions.it_should_have_and(String,String,String)"
+});
+formatter.result({
+  "duration": 208864100,
+  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Y]\u003e but was:\u003c[N]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat page.ValidateUI.validateUI(ValidateUI.java:70)\r\n\tat steps.StepDefinitions.it_should_have_and(StepDefinitions.java:115)\r\n\tat ✽.Then It should have \"Go to He Center\",\"Email Address\" and \"Sign up\"(Kobil.feature:34)\r\n",
+  "status": "failed"
+});
+formatter.before({
+  "duration": 3292701,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 40,
+  "name": "To verify the presence of UI elements",
+  "description": "",
+  "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-presence-of-ui-elements;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@Test_Kobil"
+    }
+  ]
+});
+formatter.step({
+  "line": 32,
+  "name": "I navigate to Kobil web Application",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 33,
+  "name": "I check the in \"Login Trusted Sign\" of the Application",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 34,
+  "name": "It should have \"Switch to Trusted OTP\",\"Email Address\" and \"Log in\"",
+  "matchedColumns": [
+    2,
+    3,
+    4
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "StepDefinitions.i_navigate_to_Kobil_web_Application()"
+});
+formatter.write("Current Page Title is KOBIL Trusted Sign");
+formatter.embedding("image/png", "embedded34.png");
+formatter.result({
+  "duration": 17423430969,
   "status": "passed"
 });
 formatter.match({
@@ -1203,9 +1321,9 @@ formatter.match({
   "location": "StepDefinitions.i_check_the_in_of_the_Application(String)"
 });
 formatter.write("Current Page Title is KOBIL Trusted Sign");
-formatter.embedding("image/png", "embedded34.png");
+formatter.embedding("image/png", "embedded35.png");
 formatter.result({
-  "duration": 266144790,
+  "duration": 275080020,
   "status": "passed"
 });
 formatter.match({
@@ -1226,20 +1344,20 @@ formatter.match({
   "location": "StepDefinitions.it_should_have_and(String,String,String)"
 });
 formatter.write("Current Page Title is KOBIL Trusted Sign");
-formatter.embedding("image/png", "embedded35.png");
+formatter.embedding("image/png", "embedded36.png");
 formatter.result({
-  "duration": 1391205422,
+  "duration": 1524958535,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4440840,
+  "duration": 3450219,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 39,
+  "line": 41,
   "name": "To verify the presence of UI elements",
   "description": "",
-  "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-presence-of-ui-elements;;4",
+  "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-presence-of-ui-elements;;5",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -1250,25 +1368,25 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "line": 31,
+  "line": 32,
   "name": "I navigate to Kobil web Application",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 32,
+  "line": 33,
   "name": "I check the in \"Login Trusted OTP\" of the Application",
   "matchedColumns": [
-    0
+    1
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 33,
+  "line": 34,
   "name": "It should have \"Switch to Trusted Sign\",\"Email Address\" and \"Log in\"",
   "matchedColumns": [
-    1,
     2,
-    3
+    3,
+    4
   ],
   "keyword": "Then "
 });
@@ -1276,9 +1394,9 @@ formatter.match({
   "location": "StepDefinitions.i_navigate_to_Kobil_web_Application()"
 });
 formatter.write("Current Page Title is KOBIL Trusted Sign");
-formatter.embedding("image/png", "embedded36.png");
+formatter.embedding("image/png", "embedded37.png");
 formatter.result({
-  "duration": 9108836747,
+  "duration": 17195317126,
   "status": "passed"
 });
 formatter.match({
@@ -1291,9 +1409,9 @@ formatter.match({
   "location": "StepDefinitions.i_check_the_in_of_the_Application(String)"
 });
 formatter.write("Current Page Title is OTP Login");
-formatter.embedding("image/png", "embedded37.png");
+formatter.embedding("image/png", "embedded38.png");
 formatter.result({
-  "duration": 396292397,
+  "duration": 427602289,
   "status": "passed"
 });
 formatter.match({
@@ -1314,20 +1432,20 @@ formatter.match({
   "location": "StepDefinitions.it_should_have_and(String,String,String)"
 });
 formatter.write("Current Page Title is OTP Login");
-formatter.embedding("image/png", "embedded38.png");
+formatter.embedding("image/png", "embedded39.png");
 formatter.result({
-  "duration": 1281796167,
+  "duration": 1323503570,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3411398,
+  "duration": 3141431,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 40,
+  "line": 42,
   "name": "To verify the presence of UI elements",
   "description": "",
-  "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-presence-of-ui-elements;;5",
+  "id": "as-a-product-owner-i-want-to-make-sure-navigation,sign-up,login,activate-new-device-features-are-working-as-expected;to-verify-the-presence-of-ui-elements;;6",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
@@ -1338,25 +1456,25 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "line": 31,
+  "line": 32,
   "name": "I navigate to Kobil web Application",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 32,
+  "line": 33,
   "name": "I check the in \"Activate\" of the Application",
   "matchedColumns": [
-    0
+    1
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 33,
+  "line": 34,
   "name": "It should have \"Create an account\",\"Email Address\" and \"Activate New Device\"",
   "matchedColumns": [
-    1,
     2,
-    3
+    3,
+    4
   ],
   "keyword": "Then "
 });
@@ -1364,9 +1482,9 @@ formatter.match({
   "location": "StepDefinitions.i_navigate_to_Kobil_web_Application()"
 });
 formatter.write("Current Page Title is KOBIL Trusted Sign");
-formatter.embedding("image/png", "embedded39.png");
+formatter.embedding("image/png", "embedded40.png");
 formatter.result({
-  "duration": 9485671460,
+  "duration": 9477787541,
   "status": "passed"
 });
 formatter.match({
@@ -1379,9 +1497,9 @@ formatter.match({
   "location": "StepDefinitions.i_check_the_in_of_the_Application(String)"
 });
 formatter.write("Current Page Title is KOBIL mAST - Help");
-formatter.embedding("image/png", "embedded40.png");
+formatter.embedding("image/png", "embedded41.png");
 formatter.result({
-  "duration": 421534955,
+  "duration": 401835417,
   "status": "passed"
 });
 formatter.match({
@@ -1402,9 +1520,9 @@ formatter.match({
   "location": "StepDefinitions.it_should_have_and(String,String,String)"
 });
 formatter.write("Current Page Title is KOBIL mAST - Help");
-formatter.embedding("image/png", "embedded41.png");
+formatter.embedding("image/png", "embedded42.png");
 formatter.result({
-  "duration": 1184019577,
+  "duration": 1170188356,
   "status": "passed"
 });
 });
