@@ -1,1 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="To Test the Sign Up Feature" skipped="0" tests="1" time="32.42" timestamp="2018-04-01T14:03:41.509+05:30[Asia/Calcutta]"><testcase name="To verify the the Sign is working as expected"/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="4" failures="0" name="To Test the Sign Up Feature" skipped="0" tests="4" time="49.7" timestamp="2018-04-01T16:14:55.767+05:30[Asia/Calcutta]"><testcase name="To verify the the Sign is working as expected"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+steps.NavigationSteps.take(NavigationSteps.java:34)&#13;
+steps.SignupSteps.i_navigate_to_Kobil_Application_Sign_Up_Page(SignupSteps.java:21)&#13;
+✽.Given I navigate to Kobil Application Sign Up Page(SignUp.feature:5)&#13;
+</system-err></testcase></testsuite>

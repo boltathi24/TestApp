@@ -11,7 +11,7 @@ public class Login_SignUP_Page {
 	ActivationPage a=new ActivationPage();
 	
 	
-//	WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.id("someid")));
+
 	public WebElement signUpEmailTxtBox()
 	{
 		
@@ -48,15 +48,7 @@ public class Login_SignUP_Page {
 		
 		return Setup.getDriver().findElement(By.xpath("//p[@class='form-error-message']"));
 	}
-	public WebElement privacyLink() throws InterruptedException
-	{
-		
-		Thread.sleep(30000);
-		
-		System.out.println(Setup.getDriver().findElement(By.xpath("//div[@class='rc-anchor-pt']")).getText());
-		return Setup.getDriver().findElement((By.xpath("//a[contains(text(),'Privacy')]")));
-		
-	}
+	
 	public WebElement helpLink()
 	{
 		
@@ -101,7 +93,7 @@ public class Login_SignUP_Page {
 			
 			
 		}
-		
+	
 	}
 	
 	public void validateError(String expected)

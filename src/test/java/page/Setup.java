@@ -34,7 +34,7 @@ public class Setup {
 	    cOptions.setExperimentalOption("excludeSwitches", Arrays.asList("enable-automation"));
 	    cOptions.addArguments("disable-infobars");
 		WebDriver driver = new ChromeDriver(cOptions);
-		// Initialize browser
+
 		Setup.driver=driver;
 		 
 

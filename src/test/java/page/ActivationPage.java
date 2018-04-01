@@ -22,11 +22,7 @@ public class ActivationPage {
 		
 		return Setup.getDriver().findElement(By.xpath("//button[contains(text(),'Activate')]"));
 	}
-	public WebElement privacyLink()
-	{
-		
-		return Setup.getDriver().findElement(By.xpath("//a[contains(text(),'Privacy')]"));
-	}
+
 	public WebElement getActivationEmailTextBox()
 	{
 		
