@@ -1,13 +1,14 @@
-@Run
-Feature: To Test the Kobil Applications
+@SignUp
+Feature: To Test the Sign Up Feature
   
-  Scenario Outline: To verify the the navigation is working as expected 
-    Given I navigate to Kobil Application
-    When  I click on "<Application>" start Demo Button 
-    Then  I should be Navigated to "<pageTitile>"
+  Scenario Outline: To verify the the Sign is working as expected 
+    Given I navigate to Kobil Application Sign Up Page 
+    When  I Sign up with "<emailId>" and condition as "<Condition>"  
+    Then  I should get the Message as "<expected>"
     
 Examples:
-|Application|pageTitile|
-|TRUSTED SIGN|KOBIL Trusted Sign|
-#|TRUSTED LOGIN|KOBIL Trusted Login|
-#|TRUSTED WEB|KOBIL mAST - Designed, developed and made in Germany|
+|Condition|expected|emailID|
+|Captcha Not Checked|Please verify your identity with captcha|athithya24@gmail.com|
+|Invalid Email Trusted Sign|You're account doesn't exists, please check your Email|ab@gmail.com|
+|Invalid Email Trusted OTP|Getting user certificates failed.|ab@gmail.com|
+|Captacha Not checked Activate|Please verify your identity with captcha|athithya24@gmail.com|

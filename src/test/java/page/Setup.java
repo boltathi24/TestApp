@@ -1,16 +1,11 @@
 package page;
 
 import java.io.File;
+import java.util.Arrays;
 
-import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import net.serenitybdd.core.annotations.findby.FindBy;
-import net.serenitybdd.core.pages.PageObject;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 
 
@@ -29,9 +24,17 @@ public class Setup {
 		File a=new File("src/libs/chromedriver.exe");
 		String path=a.getAbsolutePath();
 		System.setProperty("webdriver.chrome.driver", path);
-		 
+		ChromeOptions cOptions = new ChromeOptions();
+	    cOptions.addArguments("test-type");
+	    cOptions.addArguments("start-maximized");
+	    cOptions.addArguments("--js-flags=--expose-gc");  
+	    cOptions.addArguments("--enable-precise-memory-info"); 
+	    cOptions.addArguments("--disable-popup-blocking");
+	    cOptions.addArguments("--disable-default-apps"); 
+	    cOptions.setExperimentalOption("excludeSwitches", Arrays.asList("enable-automation"));
+	    cOptions.addArguments("disable-infobars");
+		WebDriver driver = new ChromeDriver(cOptions);
 		// Initialize browser
-		WebDriver driver=new ChromeDriver();
 		Setup.driver=driver;
 		 
 
@@ -47,6 +50,7 @@ public class Setup {
 
 	public void navigateToApp() throws Throwable {
 	getDriver().navigate().to("https://mast2.kobil.com/");
+	getDriver().manage().window().maximize();
 	
 }
 

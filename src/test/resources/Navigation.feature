@@ -11,7 +11,7 @@ Examples:
 |Start Demo|KOBIL Trusted Sign|
 #|Privacy SignUp|KOBIL Trusted Login|
 #|Privacy Activate|KOBIL mAST - Designed, developed and made in Germany|
-#|Login Help|KOBIL mAST - Designed, developed and made in Germany|
-#|Activate Create|KOBIL mAST - Designed, developed and made in Germany|
-#|Login switch OTP|swit|
-#|Login switch Sign|swit|
+|Login Help|KOBIL mAST - Help|
+|Activate Create|KOBIL Trusted Sign|
+|Login switch OTP|OTP Login|
+|Login switch Sign|KOBIL Trusted Sign|

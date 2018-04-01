@@ -10,7 +10,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 (features = "src/test/resources/",
 plugin ={"pretty","html:cucumberReport/cucumber-html-report"},
 glue= {"steps"},
-tags= {"@Run"})
+tags= {"@SignUp"})
 public class SignUpRunner {
 
 }
